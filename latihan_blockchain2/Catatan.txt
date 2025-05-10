@@ -1,0 +1,20 @@
+CATATAN Blockchain Pertemuan 3 (Latihan Kedua)!
+
+1. Metode Buy, Borrow, Die supaya orang kaya bisa akses (?)
+2. Cara berpikirnya adalah gimana supaya uang 100jt itu ga berkurang
+3. Sistemnya itu kamu jadiin uangmu sebagai kripto dan kamu pinjem uangmu yang dijadiin aset kripto itu supaya kalo asetmu harganya naik, kamu udah lunas utangnya
+4. Mendemokratisasi uang yang milik beberapa orang supaya bisa jadi aksesibel untuk banyak orang (?)
+5. Mudah untuk memgakses pinjaman habis itu kamu juga mengurangi dilema finansial 
+6. Blockchain semuanya composablen (?) Jadi semuanya bisa diakses dalam satu aplikasi (?)
+7. User akan berinteraksi dengan lending.sol dimana programnya akan mengakses AAVE (yang akan meminjam USDC)
+8. User akan deposit berupa WETH di vault. Kemudian WETH akan dijaminkan di AAVE yang kemudian USDCnya akan diborrow di vault.
+9. Ada dua fungsi untuk berinteraksi dengan AAVE yaitu supply dan borrow (ada di arbiscan)
+10. Misalhnya ada money changer A dan B yang fee-nya 0,3% dan 0,01% persec
+11. DEX (decentralized exchange) yang digunakan dalam pasar untuk mengubah jenis koin (?). Di dalam itu ada namanya pool untuk mengubah dari WETH ke USDC yang bisa juga disebut sebagai liquidity pool
+12. Hal ini dilakukan agar bisa dilakukan transaksi secara instan (?)
+13. Ada namanya skema Looping supply:
+    - Flashloan meminjam USDC 2350
+    - USDC itu sebanyak 2350 di swap menjadi ETH
+    - Hasil ETH di supply 
+    - Memborong USDC sbyk 2350 ke AAVE untuk bayar flashloannya
+    - Pinjem 2350 untuk membayar talangan (FL)
